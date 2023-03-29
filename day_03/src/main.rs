@@ -77,6 +77,9 @@ impl Rucksack {
 
 // -96
 // 26
+// After calculating priorities
+// a-z 1-26
+// A-Z 27-52
 impl Item {
     fn priority(&self) -> u8 {
         match self.inner.is_uppercase() {
